@@ -228,6 +228,7 @@ export default {
   },
   mounted() {
     this.getRecipes();
+    document.title = "Vue Recipes";
   },
 };
 </script>
